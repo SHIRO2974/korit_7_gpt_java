@@ -13,20 +13,27 @@ public class Main4 {
 
         System.out.println(numbers);
 
+//      forEach 문
         numbers2 = new ArrayList<>();
-
         for (Integer num : numbers) {
 
             numbers2.add(num * 10);
         }
+
         System.out.println(numbers2);
 
+//      스트림
+        numbers3 = numbers.stream() // List 를 stream 으로 형 변환
+                .map( num -> num * 10)  // 파라미터 순회해서 10씩 곱해준다
+                .collect(Collectors.toList());  // stream 을 List 로 형변환
 
-
-        numbers3 = numbers.stream()
-                .map( num -> num * 10)
-                .collect(Collectors.toList());
         System.out.println(numbers3);
+
+
+
+
+
+
 
 
 
