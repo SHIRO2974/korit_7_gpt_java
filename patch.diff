@@ -1,0 +1,29 @@
+From 6ffa7234408af4f8acf9379585bbc593398bd97b Mon Sep 17 00:00:00 2001
+From: SHIRO2974 <wogus2974@naver.com>
+Date: Fri, 20 Dec 2024 14:02:39 +0900
+Subject: [PATCH] =?UTF-8?q?=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94?=
+ =?UTF-8?q?=20=ED=94=84=EB=A6=B0=ED=8A=B8=20=EC=B6=9C=EB=A0=A5?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ src/main/java/com/korit/main/Main4.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/java/com/korit/main/Main4.java b/src/main/java/com/korit/main/Main4.java
+index ae628c5..82adc72 100644
+--- a/src/main/java/com/korit/main/Main4.java
++++ b/src/main/java/com/korit/main/Main4.java
+@@ -20,7 +20,7 @@ public class Main4 {
+             numbers2.add(num * 10);
+         }
+         System.out.println(numbers2);
+-
++        System.out.println("안녕하세요");
+ 
+ 
+         numbers3 = numbers.stream()
+-- 
+2.47.1.windows.1
+
