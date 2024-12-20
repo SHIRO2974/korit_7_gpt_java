@@ -20,7 +20,7 @@ public class Main4 {
             numbers2.add(num * 10);
         }
         System.out.println(numbers2);
-
+        System.out.println("안녕하세요");
 
 
         numbers3 = numbers.stream()
