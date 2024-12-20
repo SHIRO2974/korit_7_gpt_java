@@ -1,8 +1,11 @@
 package com.korit.controller;
 
 import com.korit.entity.User;
+import com.korit.repository.UserRepository;
 import com.korit.service.UserService;
+import com.korit.service.UserServiceImpl;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @AllArgsConstructor
